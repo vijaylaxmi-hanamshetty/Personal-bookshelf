@@ -3,8 +3,8 @@ import BookCard from "./BookCard";
 
 const Bookshelf = ({ books, actionLabel, onAction }) => {
   return (
-    <div className=" px-40 py-10">
-      <div className="grid  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-6">
+    <div className="  px-10 md:px-20 lg:px-30 py-10">
+      <div className=" grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         {books.map((book) => (
           <BookCard
             key={book.key}
